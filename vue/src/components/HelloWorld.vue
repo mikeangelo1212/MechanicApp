@@ -1,12 +1,10 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-const ASSETS_URL = import.meta.env.VITE_ASSETS_URL;
-console.log('ASSETS AAAAAAAAAAAAA',ASSETS_URL);
-
-import heroImg from './../assets/hero.png'
-import viteLogo from './../assets/vite.svg'
-import vueLogo from './../assets/vue.svg'
+//calling php folder url
+const heroImg = `./assets/hero.png`
+const viteLogo = `./assets/vite.svg`
+const vueLogo = `./assets/vue.svg`
 
 const count = ref(0)
 </script>
