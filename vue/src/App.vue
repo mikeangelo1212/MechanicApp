@@ -4,4 +4,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <HelloWorld />
+  <div class="bg-red-500 text-white p-8">
+    Tailwind is working
+  </div>
 </template>
